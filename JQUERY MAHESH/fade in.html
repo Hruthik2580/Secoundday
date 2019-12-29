@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fade in</title>
+</head>
+<body>
+<p>fade in</p>
+<p>fade out</p>
+<button id ="fadeIn">fadeIn (3 seconds)</button>
+<button id ="fadeOut">fadeOut (3 seconds)</button>
+<p>my name is mahesh</p>
+</body>
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#fadeIn").click(function(){
+	$("p").fadeIn(3000);
+});
+	
+	$("#fadeOut").click(function(){
+	$("p").fadeOut(3000);
+	});
+});
+</script>
+</html>
